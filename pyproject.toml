@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pytest-omc4py"
+version = "0.0.0"
+description = "pytest plugin that allows to test OpenModelica models using the OpenModelicaCompiler package"
+authors = ["ijknabla <ijknabla@gmail.com>"]
+license = "LICENSE"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
