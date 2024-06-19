@@ -8,6 +8,16 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.8"
+pytest = ">=5"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.5"
+
+
+[tool.poetry.group.static-test.dependencies]
+mypy = "^1.10.0"
+ruff = "^0.4.9"
 
 
 [build-system]
