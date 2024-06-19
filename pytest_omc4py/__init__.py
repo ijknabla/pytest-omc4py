@@ -1,3 +1,3 @@
-__all__ = ("Use",)
+__all__ = ("Use", "SessionFactory")
 
-from .plugin import Use
+from .plugin import Use, SessionFactory
