@@ -9,6 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.8"
 pytest = ">=5"
+openmodelicacompiler = ">=0.3"
 
 
 [tool.poetry.group.dev.dependencies]
