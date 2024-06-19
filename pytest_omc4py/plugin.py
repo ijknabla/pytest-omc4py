@@ -2,8 +2,9 @@ from __future__ import annotations
 
 import pytest
 from os import PathLike
+from typing import Union, Tuple
 
-Use = str | tuple[str, str] | PathLike[str]
+Use = Union[str, Tuple[str, str], PathLike[str]]
 
 
 @pytest.fixture
