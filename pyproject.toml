@@ -6,6 +6,9 @@ authors = ["ijknabla <ijknabla@gmail.com>"]
 license = "LICENSE"
 readme = "README.md"
 
+[tool.poetry.plugins."pytest11"]
+pytest-omc4py = "pytest_omc4py.plugin"
+
 [tool.poetry.dependencies]
 python = "^3.8"
 pytest = ">=5"
