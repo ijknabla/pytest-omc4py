@@ -10,7 +10,9 @@ import os
 if TYPE_CHECKING:
     from collections.abc import Sequence, Iterator
 
-Use = Union[str, Tuple[str, Sequence[str]], PathLike[str]]
+    Use = Union[str, Tuple[str, Sequence[str]], PathLike[str]]
+else:
+    Use = ...
 
 
 class SessionFactory(Protocol):
